@@ -3,10 +3,10 @@ var input = $("#value-input")
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
     var valueToSave = input.val();
-    storeValue("davidsVariable", valueeeee);
+    storeValue("Thingy", valueToSave);
   }
 })
 
-onNewValue("davidsVariable", function(value) {
+onNewValue("Thingy", function(value) {
   $("#value-output").html(value)
 })
